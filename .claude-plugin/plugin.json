@@ -1,0 +1,16 @@
+{
+  "name": "claude-speak",
+  "version": "1.0.0",
+  "description": "macOS TTS — use /speak to read text aloud or replay Claude's last reply via the built-in say command",
+  "author": {
+    "name": "bytefer",
+    "email": "bytefer@gmail.com"
+  },
+  "commands": [
+    {
+      "name": "speak",
+      "file": "commands/speak.md",
+      "description": "朗读文字或上一条回复"
+    }
+  ]
+}

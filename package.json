@@ -1,0 +1,25 @@
+{
+  "name": "claude-speak",
+  "version": "1.0.0",
+  "description": "macOS TTS plugin for Claude Code — speak your chat replies aloud via the built-in say command",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-code-plugin", "tts", "text-to-speech", "say", "macos"],
+  "author": {
+    "name": "bytefer",
+    "email": "bytefer@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytefer/claude-speak.git"
+  },
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "scripts/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "os": ["darwin"]
+}
