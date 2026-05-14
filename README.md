@@ -4,7 +4,16 @@ macOS TTS plugin for Claude Code. Use `/speak` to read text aloud or replay Clau
 
 ## Install
 
-### As a Claude Code plugin
+### Quick install
+
+Copy the command to your `.claude/commands/` directory:
+
+```bash
+mkdir -p .claude/commands
+cp commands/speak.md .claude/commands/speak.md
+```
+
+### As a Claude Code plugin (from GitHub)
 
 Add to `.claude/settings.json` or `.claude/settings.local.json`:
 
@@ -12,18 +21,14 @@ Add to `.claude/settings.json` or `.claude/settings.local.json`:
 {
   "extraKnownMarketplaces": {
     "claude-speak": {
-      "source": "npm",
-      "package": "claude-speak"
+      "source": "github",
+      "repo": "wang1766/claude-speak"
     }
   }
 }
 ```
 
-Then enable the plugin:
-
-```
-/claude plugins install claude-speak@claude-speak
-```
+Then enable the plugin in Claude Code.
 
 ### Zero-token hook (recommended)
 
